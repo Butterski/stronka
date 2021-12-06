@@ -2,22 +2,22 @@ main {
   background-color: #2A2A39;
   min-height: 90vh;
   display: flex;
-  /* flex-direction: column;
-  align-items: center;
+  /* align-items: center;
   justify-content: center; */
   font-size: calc(10px + 2vmin);
-
-
+}
+.firstview{
+  height: 70vh;
+  margin: 5%;
 }
 .aboutme{
-  width: 35%;
-  margin: 2%;
+  width: 40%;
   color: #F2E9E4;
+  margin-top: 15vh;
 }
 .specs{
-  width: 50%;
+  width: 40%;
   margin: 2%;
-  display: block;
   color: #F2E9E4;
 }
 .specs img{
