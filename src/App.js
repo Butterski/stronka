@@ -1,4 +1,5 @@
 import "./App.css";
+import Project from "./components/Project/Project";
 
 function App() {
   return (
@@ -11,16 +12,15 @@ function App() {
               <p>
                 I am a person with great passion to IT, especially coding and
                 administrating systems. I self-taught myself most of the things
-                I know about the things I do. 
+                I know about the things I do.
               </p>
             </div>
-            
           </div>
-          <div className="specs">
-            <h1>My skills</h1>
-            <p>
+          <div className="spenproj">
+            <div className="specs">
+              <h1>My skills</h1>
               <h3>Languages:</h3>
-              <p>
+              <div>
                 <img
                   src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg"
                   alt="bootstrap"
@@ -61,7 +61,7 @@ function App() {
                   src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
                   alt="react"
                 />
-              </p>
+              </div>
               <h3 align="left">Other Softwares or Tools:</h3>
               <img
                 src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg"
@@ -87,10 +87,51 @@ function App() {
                 src="https://download.blender.org/branding/community/blender_community_badge_white.svg"
                 alt="blender"
               />
-            </p>
+            </div>
+            <div className="projectsCont">
+              <h1>My projects</h1>
+              <p>Legend: 🏁-finished, 🚧-in progress, 🏴‍☠️-abandoned</p>
+
+              <div className="projects">
+                <Project
+                  status="🚧"
+                  name="Stronka"
+                  desc="that's the page you're seeing"
+                  link="stronka"
+                  technologies={["react", "html-5", "css-3"]}
+                />
+                <Project
+                  status="🏁"
+                  name="ImageToPixels"
+                  desc="program i made as a joke to pixelise images and output every single pixel as div in html"
+                  link="ImageToHtmlPixels"
+                  technologies={["python", "html-5", "css-3"]}
+                />
+                <Project
+                  status="🏁"
+                  name="Card Validator"
+                  desc="program that uses Luhn algorithm to verify your card number, i made it to train my c++ skills"
+                  link="ImageToHtmlPixels"
+                  technologies={["c-plusplus"]}
+                />
+                <Project
+                  status="🏴‍☠️"
+                  name="Artifact Trader Bot"
+                  desc="discord bot i made with my friends to draw random items from game and give them random price"
+                  link="artifact-trader-bot"
+                  technologies={["python"]}
+                />
+                <Project
+                  status="🏴‍☠️"
+                  name="Pong Master"
+                  desc="python bot made to play pong game, very simple and only working on my monitor with very specific settings"
+                  link="pong-master"
+                  technologies={["python"]}
+                />
+              </div>
+            </div>
           </div>
         </div>
-        <div className="projects"></div>
       </main>
     </div>
   );
