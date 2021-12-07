@@ -1,24 +1,27 @@
+html{
+  background-color: #2A2A39;
+}
 main {
   background-color: #2A2A39;
-  min-height: 90vh;
   display: flex;
-  /* align-items: center;
-  justify-content: center; */
   font-size: calc(10px + 2vmin);
+  color: #F2E9E4;
 }
 .firstview{
-  height: 70vh;
+  height: 65vh;
   margin: 5%;
 }
 .aboutme{
   width: 40%;
-  color: #F2E9E4;
   margin-top: 15vh;
+}
+.spenproj{
+  display: flex;
+  height: 95vh;
 }
 .specs{
   width: 40%;
   margin: 2%;
-  color: #F2E9E4;
 }
 .specs img{
   padding: 8px;
@@ -26,7 +29,26 @@ main {
   width: 50px;
   height: 50px;
 }
+.projectsCont{
+  margin: 2%;
+}
+.projects{
+  margin: 2%;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+}
+.projects p{
+  font-size: calc(5px + 1vmin);
+  margin: 1vh;
+}
+
+
 @media screen and (max-width: 960px) {
+  .firstview{
+    height: 50vh;
+    margin: 5%;
+  }
   .aboutme{
     display: block;
     width: 80%;
@@ -37,6 +59,9 @@ main {
     width: 80%;
     margin: 2%;
     color: #F2E9E4;
+  }
+  .spenproj{
+    display: block;
   }
 }
 
