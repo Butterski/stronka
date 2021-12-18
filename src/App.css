@@ -1,11 +1,15 @@
 html{
   background-color: #2A2A39;
 }
+body{
+  overflow-x: hidden;
+}
 main {
   background-color: #2A2A39;
   display: flex;
   font-size: calc(10px + 2vmin);
   color: #F2E9E4;
+  
 }
 .firstview{
   height: 65vh;
@@ -36,7 +40,8 @@ main {
   margin: 2%;
   display: grid;
   grid-gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  align-items: start;
 }
 .projects p{
   font-size: calc(5px + 1vmin);
