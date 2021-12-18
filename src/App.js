@@ -1,5 +1,6 @@
 import "./App.css";
 import Project from "./components/Project/Project";
+import Fade from 'react-reveal/Fade'
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       <main>
         <div>
           <div className="firstview">
+          <Fade left>
             <div className="aboutme">
               <h1>Who am I?</h1>
               <p>
@@ -15,6 +17,7 @@ function App() {
                 I know about the things I do.
               </p>
             </div>
+            </Fade>
           </div>
           <div className="spenproj">
             <div className="specs">
