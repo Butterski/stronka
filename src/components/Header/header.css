@@ -29,6 +29,7 @@
   margin-inline: 15px;
   border-radius: 50%;
   box-shadow: 5px 5px 5px black;
+  transition: padding .3s;
 }
 .socialIcon:hover {
   padding: 8px;
