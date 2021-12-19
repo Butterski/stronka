@@ -9,7 +9,7 @@ main {
   display: flex;
   font-size: calc(10px + 2vmin);
   color: #F2E9E4;
-  
+  height: 230vh;
 }
 .firstview{
   height: 65vh;
@@ -50,6 +50,9 @@ main {
 
 
 @media screen and (max-width: 960px) {
+  main{
+    height: 320vh;
+  }
   .firstview{
     height: 50vh;
     margin: 5%;
