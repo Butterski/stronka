@@ -97,35 +97,35 @@ function App() {
 
               <div className="projects">
                 <Project
-                  status="🚧"
+                  status="in_progress"
                   name="Stronka"
                   desc="that's the page you're seeing"
                   link="https://github.com/Butterski/stronka"
                   technologies={["react", "html-5", "css-3"]}
                 />
                 <Project
-                  status="🏁"
+                  status="finished"
                   name="ImageToPixels"
                   desc="program i made as a joke to pixelise images and output every single pixel as div in html"
                   link="https://github.com/Butterski/ImageToHtmlPixels"
                   technologies={["python", "html-5", "css-3"]}
                 />
                 <Project
-                  status="🏁"
+                  status="finished"
                   name="Card Validator"
                   desc="program that uses Luhn algorithm to verify your card number, i made it to train my c++ skills"
                   link="https://github.com/Butterski/cardvalidator"
                   technologies={["c-plusplus"]}
                 />
                 <Project
-                  status="🏴‍☠️"
+                  status="abandoned"
                   name="Artifact Trader Bot"
                   desc="discord bot i made with my friends to draw random items from game and give them random price"
                   link="https://github.com/Butterski/artifact-trader-bot"
                   technologies={["python"]}
                 />
                 <Project
-                  status="🏴‍☠️"
+                  status="abandoned"
                   name="Pong Master"
                   desc="python bot made to play pong game, very simple and only working on my monitor with very specific settings"
                   link="https://github.com/Butterski/pong-master"
