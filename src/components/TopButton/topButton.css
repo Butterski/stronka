@@ -3,17 +3,23 @@
   z-index: 100;
   bottom: 1rem;
   right: 2rem;
-  padding: 1.5rem;
+  box-shadow: inset 2px 2px 15px rgba(128, 128, 128, 0.3);
+  border-radius: 100%;
+  padding: 0.1rem;
+  border: none;
+  cursor: pointer;
+  background-color: #6060be25;
 }
 .arrow{
-  width: 4rem;
-  height: 4rem;
+  width: 2.5rem;
+  height: 3rem;
   color: #6060BE;
-  box-shadow: inset 2px 2px 15px gray;
-  border-radius: 10px;
 }
 .arrow :hover{
   box-shadow: 2px 2px 30px white;
+}
+.hidden{
+  opacity: 0%;
 }
 
 
@@ -22,11 +28,16 @@
     position: fixed;
     z-index: 100;
     bottom: 1rem;
-    right: 1rem;
-    padding: 1.5rem;
+    right: 2rem;
+    box-shadow: inset 2px 2px 15px rgba(128, 128, 128, 0.3);
+    border-radius: 100%;
+    padding: 0.1rem;
+    border: none;
+    cursor: pointer;
+    background-color: #6060be25;
   }
   .arrow{
-    width: 3rem;
+    width: 2.5rem;
     height: 3rem;
     color: #6060BE;
   }
