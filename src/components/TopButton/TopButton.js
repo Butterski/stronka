@@ -1,20 +1,22 @@
 import React from "react";
+import { HideOn } from "react-hide-on-scroll";
 import "./topButton.css";
 
-function handleclick(){
-  console.log("yo")
+function goTop() {
+  document.body.scrollIntoView({
+    behavior: "smooth",
+  });
 }
 
 const TopButton = () => (
-  <div className="topButton">
-  <a href="#" onClick={handleclick()}>
-    <span
-      className="iconify arrow"
-      key="topButton"
-      data-icon="bi:arrow-up-square"
-      onClick={console.log('yo')}
-    ></span>
-    </a>
-  </div>
+  <HideOn inverse height={100}>
+    <button className="topButton" onClick={() => goTop()}>
+      <span
+        className="iconify arrow"
+        key="topButton"
+        data-icon="entypo:arrow-up"
+      ></span>
+    </button>
+  </HideOn>
 );
 export default TopButton;
