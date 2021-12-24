@@ -7,6 +7,7 @@ function App() {
     <div className="App">
       <main>
         <div>
+        <img src="logo.svg" alt="logo" className="logo"></img>
           <div className="firstview">
           <Fade left>
             <div className="aboutme">

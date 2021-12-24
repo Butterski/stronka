@@ -15,6 +15,11 @@ main {
   height: 65vh;
   margin: 5%;
 }
+.logo{
+  position: absolute;
+  z-index: 0;
+  right: 20%;
+}
 .aboutme{
   width: 40%;
   margin-top: 15vh;
@@ -57,6 +62,13 @@ main {
   .firstview{
     height: 50vh;
     margin: 5%;
+  }
+  .logo{
+    position: absolute;
+    z-index: 0;
+    right: 0;
+    opacity: 50%;
+    zoom: .7;
   }
   .aboutme{
     display: block;
