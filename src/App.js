@@ -45,11 +45,11 @@ function App() {
                   alt="javascript"
                 />
                 <img
-                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg"
+                  src="https://www.vectorlogo.zone/logos/mysql/mysql-icon.svg"
                   alt="mysql"
                 />
                 <img
-                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"
+                  src="https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg"
                   alt="nodejs"
                 />
                 <img
@@ -79,7 +79,7 @@ function App() {
                 alt="Raspberry Pi"
               />
               <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-original.svg"
+                src="https://www.vectorlogo.zone/logos/wordpress/wordpress-icon.svg"
                 alt="WordPress"
               />
               <img
