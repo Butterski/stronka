@@ -1,5 +1,5 @@
 .header {
-  max-height: 3vh;
+  max-height: 3.5vh;
   text-align: center;
   background: #1e1e22;
   font-family: cascadia code;
@@ -28,18 +28,19 @@
   margin-inline: 15px;
   border-radius: 50%;
   box-shadow: 5px 5px 5px black;
-  transition: padding .3s;
+  transition: padding 0.3s;
 }
 .socialIcon:hover {
   padding: 8px;
   margin-inline: 12px;
   box-shadow: 15px 5px 5px black;
 }
+.dropdownbutton {
+  display: none;
+}
 
 @media screen and (max-width: 960px) {
   .header {
-    padding: 1vh 0;
-    width: 100%;
     max-height: 13vh;
     text-align: center;
     background: #1e1e22;
@@ -55,5 +56,38 @@
   }
   .navbar {
     display: none;
+  }
+  .dropdownbutton {
+    display: block;
+    position: absolute;
+    right: 0;
+    padding: 3vh;
+    align-self: center;
+  }
+  .dropdownarrow {
+    width: 3.7rem;
+    height: 4.5rem;
+    color: white;
+  }
+  .dropdownbutton button {
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+  }
+  .dropdownMenu td {
+    padding-top: 1rem;
+    font-size: 1.5rem;
+  }
+  .dropdownMenu a{
+    color: white;
+  }
+  .dropdownMenu {
+    display: block;
+    position: absolute;
+    top: 5rem;
+    right: 0;
+    padding: 3vh;
+    background-color: #1e1e22;
+    z-index: 1;
   }
 }
