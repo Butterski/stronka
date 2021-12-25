@@ -59,7 +59,7 @@ main {
 
 @media screen and (max-width: 960px) {
   main{
-    height: 320vh;
+    height: 280vh;
   }
   .firstview{
     height: 50vh;
