@@ -19,6 +19,7 @@ main {
   position: absolute;
   z-index: 0;
   right: 20%;
+  opacity: 50%;
 }
 .aboutme{
   width: 40%;
@@ -27,6 +28,7 @@ main {
 .spenproj{
   display: flex;
   height: 95vh;
+  width: 100%;
 }
 .specs{
   width: 40%;
@@ -77,7 +79,7 @@ main {
   }
   .specs{
     display: block;
-    width: 100%;
+    width: 95%;
     margin: 2%;
     color: #F2E9E4;
   }
