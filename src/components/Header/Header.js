@@ -24,7 +24,6 @@ const Header = () => {
         </button>
       </div>
       <div className="navbar">
-      
         <SocialIcon
           className="socialIcon"
           fgColor="#171515"
@@ -55,25 +54,29 @@ const Header = () => {
           <table>
             <tr>
               <td>
-                <a href="https://github.com/Butterski">GitHub</a>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <a href="https://www.linkedin.com/in/mi%C5%82osz-kucharski-2a9804206/">
-                  LinkedIn
+                <a href="https://github.com/Butterski">
+                  {showList ? "GitHub" : null}
                 </a>
               </td>
             </tr>
             <tr>
               <td>
-                <a href="mailto:miloszkucharski@gmail.com">e-mail</a>
+                <a href="https://www.linkedin.com/in/mi%C5%82osz-kucharski-2a9804206/">
+                  {showList ? "LinkedIn" : null}
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="mailto:miloszkucharski@gmail.com">
+                  {showList ? "E-Mail" : null}
+                </a>
               </td>
             </tr>
             <tr>
               <td>
                 <a href="https://discordapp.com/users/215900363222417410">
-                  Discord
+                  {showList ? "Discord" : null}
                 </a>
               </td>
             </tr>
