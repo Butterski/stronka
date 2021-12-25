@@ -18,7 +18,7 @@ main {
 .logo{
   position: absolute;
   z-index: 0;
-  right: 20%;
+  right: 10%;
   opacity: 50%;
 }
 .aboutme{
