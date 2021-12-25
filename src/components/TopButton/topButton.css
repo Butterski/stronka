@@ -3,16 +3,15 @@
   z-index: 100;
   bottom: 1rem;
   right: 2rem;
-  box-shadow: inset 2px 2px 15px rgba(128, 128, 128, 0.4);
-  border-radius: 40%;
-  padding: .1rem;
   border: none;
   cursor: pointer;
-  background-color: #6060be65;
+  background-color: transparent;
+  padding: 0;
+  border-radius: 10%;
 }
 .arrow{
   width: 3.7rem;
-  height: 4.5rem;
+  height: 4rem;
   color: #6060bed2;
 }
 .arrow :hover{
@@ -28,13 +27,11 @@
     position: fixed;
     z-index: 100;
     bottom: 1rem;
-    right: 2rem;
-    box-shadow: inset 2px 2px 15px rgba(128, 128, 128, 0.3);
+    right: 1.8rem;
     border-radius: 20%;
     padding: 0.1rem;
     border: none;
     cursor: pointer;
-    background-color: #6060be25;
   }
   .arrow{
     width: 2.5rem;

@@ -14,7 +14,7 @@ const TopButton = () => (
       <span
         className="iconify arrow"
         key="topButton"
-        data-icon="entypo:arrow-up"
+        data-icon="bi:file-arrow-up"
       ></span>
     </button>
   </HideOn>
