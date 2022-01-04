@@ -82,6 +82,13 @@ main {
     width: 95%;
     margin: 2%;
     color: #F2E9E4;
+    margin-bottom: 10vh;
+  }
+  .specs img{
+    padding: 8px;
+    margin-inline: 5px;
+    width: 65px;
+    height: 65px;
   }
   .spenproj{
     display: block;
