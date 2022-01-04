@@ -1,5 +1,5 @@
 .header {
-  max-height: 3.5vh;
+  max-height: calc(3.5vh + 10px);
   text-align: center;
   background: #1e1e22;
   font-family: cascadia code;
@@ -21,7 +21,7 @@
   margin-left: auto;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 .socialIcon {
   padding: 5px;
@@ -38,6 +38,11 @@
 .dropdownbutton {
   display: none;
 }
+.navbar-link{
+  margin: 1rem;
+  font-size: 1.35rem;
+  color: #f2e9e4;
+}
 
 @media screen and (max-width: 960px) {
   .header {
@@ -53,6 +58,9 @@
     text-align: left;
     line-height: 2vh;
     margin-top: 2vh;
+  }
+  .title {
+    font-size: calc(55px + 2vmin);
   }
   .navbar {
     display: none;
