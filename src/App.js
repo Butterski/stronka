@@ -97,6 +97,10 @@ function App() {
                 alt="vim"
               />
               <img
+                src="https://www.vectorlogo.zone/logos/arduino/arduino-icon.svg"
+                alt="arduino"
+              />
+              <img
                 src="https://raw.githubusercontent.com/detain/svg-logos/780f25886640cef088af994181646db2f6b1a3f8/svg/redux.svg"
                 alt="redux"
               />
