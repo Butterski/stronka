@@ -1,0 +1,8 @@
+.footer {
+  font-size: calc(10px + .8vmin);
+  color: #f3f3f3;
+  height: 10vh;
+  background: #1e1e22;
+  bottom: 0;
+  width: 100%;
+}
