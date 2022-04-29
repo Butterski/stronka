@@ -117,10 +117,10 @@ function App() {
                 alt="typescript"
               />
               <a href="https://github.com/mkrl/misbrands">
-              <img
-                src="https://raw.githubusercontent.com/mkrl/misbrands/456ea8aa2c7873123dce3d746528bb9a3b6dd139/javascript.svg"
-                alt="java?"
-              />
+                <img
+                  src="https://raw.githubusercontent.com/mkrl/misbrands/456ea8aa2c7873123dce3d746528bb9a3b6dd139/javascript.svg"
+                  alt="java?"
+                />
               </a>
               <img
                 src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg"
@@ -160,6 +160,13 @@ function App() {
                   desc="program that uses Luhn algorithm to verify your card number, i made it to train my c++ skills"
                   link="https://github.com/Butterski/cardvalidator"
                   technologies={["c-plusplus"]}
+                />
+                <Project
+                  status="finished"
+                  name="Covid-App"
+                  desc="its just a page which shows total covid cases in poland, made it to look how fetching api works in react"
+                  link="https://github.com/Butterski/covid-app"
+                  technologies={["react"]}
                 />
                 <Project
                   status="abandoned"
