@@ -56,6 +56,23 @@ main {
   font-size: calc(5px + 1vmin);
   margin: 1vh;
 }
+.social-icons{
+  height: 70px;
+  display: flex;
+  justify-content: flex-start;
+}
+.socialIcon {
+  padding: 10px;
+  margin-inline: 15px;
+  border-radius: 50%;
+  box-shadow: 5px 5px 5px black;
+  transition: padding 0.3s ease;
+}
+.socialIcon:hover {
+  padding: 15px;
+  margin-inline: 12px;
+  box-shadow: 15px 5px 5px black;
+}
 
 
 @media screen and (max-width: 960px) {
@@ -77,6 +94,7 @@ main {
     display: block;
     width: 80%;
     margin: 2%;
+    margin-top: 50px;
   }
   .specs{
     display: block;
@@ -93,6 +111,14 @@ main {
   }
   .spenproj{
     display: block;
+  }
+  .socialIcon {
+    padding: 5px;
+    margin-inline: 10px;
+    border-radius: 50%;
+    zoom: .8;
+    box-shadow: 5px 5px 5px black;
+    transition: padding 0.3s ease;
   }
 }
 

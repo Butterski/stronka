@@ -1,6 +1,7 @@
 import "./App.css";
 import Project from "./components/Project/Project";
 import Fade from "react-reveal/Fade";
+import { SocialIcon } from "react-social-icons";
 
 function App() {
   return (
@@ -17,6 +18,31 @@ function App() {
                   administrating systems. I self-taught myself most of the
                   things I know about the things I do.
                 </p>
+                <div className="social-icons">
+                  <SocialIcon
+                    className="socialIcon"
+                    fgColor="#171515"
+                    bgColor="white"
+                    url="https://github.com/Butterski"
+                  ></SocialIcon>
+                  <SocialIcon
+                    className="socialIcon"
+                    fgColor="white"
+                    url="https://www.linkedin.com/in/mi%C5%82osz-kucharski-2a9804206/"
+                  ></SocialIcon>
+                  <SocialIcon
+                    className="socialIcon"
+                    fgColor="white"
+                    url="mailto:miloszkucharski@gmail.com"
+                  ></SocialIcon>
+                  <SocialIcon
+                    className="socialIcon"
+                    fgColor="white"
+                    url="https://discordapp.com/users/215900363222417410"
+                    label="Butters#9668"
+                    network="discord"
+                  ></SocialIcon>
+                </div>
               </div>
             </Fade>
           </div>

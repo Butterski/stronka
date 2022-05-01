@@ -41,29 +41,7 @@ const Header = () => {
         >
           Discord
         </a>
-        {/* <SocialIcon
-          className="socialIcon"
-          fgColor="#171515"
-          bgColor="white"
-          url="https://github.com/Butterski"
-        ></SocialIcon>
-        <SocialIcon
-          className="socialIcon"
-          fgColor="white"
-          url="https://www.linkedin.com/in/mi%C5%82osz-kucharski-2a9804206/"
-        ></SocialIcon>
-        <SocialIcon
-          className="socialIcon"
-          fgColor="white"
-          url="mailto:miloszkucharski@gmail.com"
-        ></SocialIcon>
-        <SocialIcon
-          className="socialIcon"
-          fgColor="white"
-          url="https://discordapp.com/users/215900363222417410"
-          label="Butters#9668"
-          network="discord"
-        ></SocialIcon> */}
+        
       </div>
 
       <Slide right when={showList}>
