@@ -1,7 +1,9 @@
 
 # Stronka
 
-Its my website that i intend to use as cv.
+Its my website that i intend to use as portfolio.
+
+`plz dont look at code`
 
 
 ## Installation
