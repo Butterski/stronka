@@ -3,12 +3,15 @@ import Project from "./components/Project/Project";
 import Fade from "react-reveal/Fade";
 import { SocialIcon } from "react-social-icons";
 
+
+import logo from './assets/logo.svg';
+
 function App() {
   return (
     <div className="App">
       <main>
         <div>
-          <img src="logo.svg" alt="logo" className="logo"></img>
+          <img src={logo} alt="logo" className="logo"></img>
           <div className="firstview">
             <Fade left>
               <div className="aboutme">
