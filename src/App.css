@@ -19,7 +19,7 @@ main {
   position: absolute;
   z-index: 0;
   right: 10%;
-  opacity: 50%;
+  opacity: .5;
 }
 .aboutme{
   width: 40%;
@@ -87,7 +87,7 @@ main {
     position: absolute;
     z-index: 0;
     right: 0;
-    opacity: 50%;
+    opacity: .5;
     zoom: .7;
   }
   .aboutme{
