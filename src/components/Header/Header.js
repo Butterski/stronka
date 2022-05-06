@@ -1,15 +1,20 @@
 import React, { useState } from "react";
 import "./header.css";
 import Slide from "react-reveal/Slide";
+import { Link } from "react-router-dom";
+
+import Experience from "../../views/Experience/Experience";
 
 const Header = () => {
   const [showList, setShowList] = useState(false);
 
   return (
     <div className="header">
-      <div className="headertext">
+      <div className="header-text">
         <div className="title">
-          <b>Miłosz</b>
+          <Link to="/" className="header-link">
+            <b>Miłosz</b>
+          </Link>
         </div>
         <p>logo in progress</p>
       </div>
@@ -23,25 +28,14 @@ const Header = () => {
         </button>
       </div>
       <div className="navbar">
-        <a href="https://github.com/Butterski" className="navbar-link">
-          GitHub
-        </a>
-        <a
-          href="https://www.linkedin.com/in/mi%C5%82osz-kucharski-2a9804206/"
-          className="navbar-link"
-        >
-          LinkedIn
-        </a>
-        <a href="mailto:miloszkucharski@gmail.com" className="navbar-link">
-          E-Mail
-        </a>
-        <a
-          href="https://discordapp.com/users/215900363222417410"
-          className="navbar-link"
-        >
-          Discord
-        </a>
-        
+        <Link to={"/experience"} className="navbar-link">
+          Experience
+        </Link>
+        <Link to={"/experience"} className="navbar-link">
+          Skills
+        </Link>
+        <Link to={'/experience'} className="navbar-link">Resume</Link>
+        <Link to={'/experience'} className="navbar-link">Contact</Link>
       </div>
 
       <Slide right when={showList}>
