@@ -9,7 +9,7 @@ main {
   display: flex;
   font-size: calc(10px + 2vmin);
   color: #f3f3f3;
-  height: 230vh;
+  margin-bottom: 5vh;
 }
 .firstview{
   height: 65vh;
@@ -40,11 +40,13 @@ main {
   width: 50px;
   height: 50px;
 }
-.projectsCont{
-  margin: 2%;
-  
+.skills-projs{
+  display: flex;
 }
-.projects{
+.projects-container{
+  margin: 2%;
+}
+.projects-scroll{
   margin: 2%;
   display: grid;
   grid-gap: 1rem;
@@ -76,9 +78,9 @@ main {
 
 
 @media screen and (max-width: 960px) {
-  main{
+  /* main{
     height: 280vh;
-  }
+  } */
   .firstview{
     height: 50vh;
     margin: 5%;
@@ -95,6 +97,30 @@ main {
     width: 80%;
     margin: 2%;
     margin-top: 50px;
+  }
+  .skills-projs{
+    display: block;
+  }
+  .projects{
+    height: 400px;
+  }
+  .projects-scroll{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    margin: 0%;
+    display: flex;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    grid-gap: 2rem;
+    justify-content: flex-start;
+  }
+  .projects-scroll::-webkit-scrollbar-thumb{
+    background-color: #55557380;
+    border-radius: 1px;
+  }
+  .projects-scroll::-webkit-scrollbar {
+    width: 10px;
   }
   .specs{
     display: block;
