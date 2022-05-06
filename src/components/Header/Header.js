@@ -3,8 +3,6 @@ import "./header.css";
 import Slide from "react-reveal/Slide";
 import { Link } from "react-router-dom";
 
-import Experience from "../../views/Experience/Experience";
-
 const Header = () => {
   const [showList, setShowList] = useState(false);
 
@@ -31,11 +29,15 @@ const Header = () => {
         <Link to={"/experience"} className="navbar-link">
           Experience
         </Link>
-        <Link to={"/experience"} className="navbar-link">
+        <Link to={"/skills"} className="navbar-link">
           Skills
         </Link>
-        <Link to={'/experience'} className="navbar-link">Resume</Link>
-        <Link to={'/experience'} className="navbar-link">Contact</Link>
+        <Link to={"/resume"} className="navbar-link">
+          Resume
+        </Link>
+        <Link to={"/contact"} className="navbar-link">
+          Contact
+        </Link>
       </div>
 
       <Slide right when={showList}>
