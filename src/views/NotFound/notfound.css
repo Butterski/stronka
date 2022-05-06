@@ -1,0 +1,12 @@
+.notfound{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.takethis{
+    height: 100%;
+    width: 100%;
+    margin: 10%;
+    object-fit: contain;
+}
