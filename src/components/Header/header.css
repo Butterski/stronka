@@ -10,9 +10,13 @@
 .header img {
   max-height: 8vh;
 }
-.headertext {
+.header-text {
   text-align: left;
   line-height: 2vh;
+}
+.header-link{
+  text-decoration: none;
+  color: #f3f3f3;
 }
 .title {
   font-size: calc(45px + 2vmin);
@@ -42,10 +46,14 @@
     display: flex;
     padding: 2%;
   }
-  .headertext {
+  .header-text {
     text-align: left;
     line-height: 2vh;
     margin-top: 2vh;
+  }
+  .header-link{
+    text-decoration: none;
+    color: #f3f3f3;
   }
   .title {
     font-size: calc(55px + 2vmin);
