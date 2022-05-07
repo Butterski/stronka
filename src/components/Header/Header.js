@@ -32,9 +32,6 @@ const Header = () => {
         <Link to={"/skills"} className="navbar-link">
           Skills
         </Link>
-        <Link to={"/resume"} className="navbar-link">
-          Resume
-        </Link>
         <Link to={"/contact"} className="navbar-link">
           Contact
         </Link>
@@ -46,30 +43,23 @@ const Header = () => {
             <tbody>
               <tr>
                 <td>
-                  <a href="https://github.com/Butterski">
-                    {showList ? "GitHub" : null}
-                  </a>
+                  <Link to={"/experience"} onClick={() => setShowList(false)}>
+                    {showList ? "Experience" : null}
+                  </Link>
                 </td>
               </tr>
               <tr>
                 <td>
-                  <a href="https://www.linkedin.com/in/mi%C5%82osz-kucharski-2a9804206/">
-                    {showList ? "LinkedIn" : null}
-                  </a>
+                  <Link to={"/skills"} onClick={() => setShowList(false)}>
+                    {showList ? "Skills" : null}
+                  </Link>
                 </td>
               </tr>
               <tr>
                 <td>
-                  <a href="mailto:miloszkucharski@gmail.com">
-                    {showList ? "E-Mail" : null}
-                  </a>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <a href="https://discordapp.com/users/215900363222417410">
-                    {showList ? "Discord" : null}
-                  </a>
+                  <Link to={"/contact"} onClick={() => setShowList(false)}>
+                    {showList ? "Contact" : null}
+                  </Link>
                 </td>
               </tr>
             </tbody>
