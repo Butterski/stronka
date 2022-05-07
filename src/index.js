@@ -10,7 +10,6 @@ import Footer from './components/Footer/Footer';
 import NotFound from "./views/NotFound/NotFound";
 import Experience from "./views/Experience/Experience";
 import Skills from "./views/Skills/Skills";
-import Resume from "./views/Resume/Resume";
 import Contact from "./views/Contact/Contact";
 
 ReactDOM.render(
@@ -21,7 +20,6 @@ ReactDOM.render(
       <Route path="/" element={<App />}/>
       <Route path="/experience" element={<Experience />}/>
       <Route path="/skills" element={<Skills />}/>
-      <Route path="/resume" element={<Resume />} />
       <Route path="/contact" element={<Contact />} />
       <Route
       path="*"
