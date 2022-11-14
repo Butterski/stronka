@@ -1,13 +1,16 @@
 .socials-logo-container{
     display: flex;
     margin: 5%;
+    justify-content: space-around;
 }
 
 .contacts-logo{
     opacity: .5;
-    width: 350px;
-    height: 350px;
     display: flex;
+}
+.contacts-logo img{
+  height: 400px;
+  object-fit: contain;
 }
 
 /* socials */

@@ -1,0 +1,30 @@
+.experience-container {
+  display: flex;
+  justify-content: space-around;
+  color: #f3f3f3;
+  margin: 2%;
+}
+.experience-container-right {
+  display: flex;
+  align-items: center;
+  max-width: 50%;
+}
+.experience-container-right img {
+  width: 480px;
+  height: 240px;
+  box-shadow: 5px 5px 5px black;
+}
+@media screen and (max-width: 960px) {
+    .experience-container {
+        display: block;
+      }
+      .experience-container-right {
+        display: flex;
+        align-items: center;
+        max-width: 100%;
+      }
+      .experience-container-right img {
+        width: 100%;
+        box-shadow: 5px 5px 5px black;
+      }
+}

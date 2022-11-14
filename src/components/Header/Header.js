@@ -29,7 +29,7 @@ const Header = () => {
         <Link to={"/experience"} className="navbar-link">
           Experience
         </Link>
-        <Link to={"/skills"} className="navbar-link">
+        <Link to={'/'} className="navbar-link">
           Skills
         </Link>
         <Link to={"/contact"} className="navbar-link">
@@ -50,7 +50,7 @@ const Header = () => {
               </tr>
               <tr>
                 <td>
-                  <Link to={"/skills"} onClick={() => setShowList(false)}>
+                  <Link to={"/stronka"} onClick={() => setShowList(false)}>
                     {showList ? "Skills" : null}
                   </Link>
                 </td>

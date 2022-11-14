@@ -4,6 +4,7 @@ import Fade from "react-reveal/Fade";
 import { SocialIcon } from "react-social-icons";
 
 import logo from "./assets/logo.svg";
+import { Link } from "react-router-dom";
 
 function App() {
   return (
@@ -18,7 +19,16 @@ function App() {
                 <p>
                   I am a person with great passion to IT, especially coding and
                   administrating systems. I self-taught myself most of the
-                  things I know about the things I do.
+                  things I know about the things I do. Since i dont have a lot
+                  of{" "}
+                  <Link to={"/experience"} style={{ color: "#f3f3f3" }}>
+                    work experience
+                  </Link>{" "}
+                  i suggest looking at{" "}
+                  <Link to={"/skills"} style={{ color: "#f3f3f3" }}>
+                    skills
+                  </Link>
+                  .
                 </p>
                 <div className="social-icons">
                   <SocialIcon
@@ -49,7 +59,7 @@ function App() {
             </Fade>
           </div>
           <div className="skills-projs">
-            <div className="specs">
+            <div className="specs" id="specs">
               <h1>My skills</h1>
               <h3>Languages:</h3>
               <div>
@@ -173,6 +183,27 @@ function App() {
                     name="Stronka"
                     desc="that's the page you're seeing"
                     link="https://github.com/Butterski/stronka"
+                    technologies={["react", "html-5", "css-3"]}
+                  />
+                  <Project
+                    status="finished"
+                    name="color-game"
+                    desc="simple color guessing game with multiple modes"
+                    link="https://github.com/Butterski/color-game"
+                    technologies={["react","typescript-icon" ,"html-5", "css-3"]}
+                  />
+                  <Project
+                    status="finished"
+                    name="comments-app"
+                    desc="frontendmentor challenge to make comments component"
+                    link="https://github.com/Butterski/comments-app"
+                    technologies={["react", "html-5", "css-3"]}
+                  />
+                  <Project
+                    status="finished"
+                    name="quote-generator"
+                    desc="Devchallenges.io challange to make quote generator with quotes API"
+                    link="https://github.com/Butterski/quote-generator"
                     technologies={["react", "html-5", "css-3"]}
                   />
                   <Project
