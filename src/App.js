@@ -133,7 +133,7 @@ function App() {
                 src="https://download.blender.org/branding/community/blender_community_badge_white.svg"
                 alt="blender"
               />
-              <h3 align="left">Things i want to learn in 2022:</h3>
+              <h3 align="left">Things i want to learn in 2023:</h3>
               <img
                 src="https://www.vectorlogo.zone/logos/vim/vim-icon.svg"
                 alt="vim"
