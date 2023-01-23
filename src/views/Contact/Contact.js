@@ -10,7 +10,7 @@ const Contact = () => {
     link: "",
   }); 
   return (
-    <div>
+    <div className="contacts">
     <div className="socials-logo-container">
       <div className="contacts-logo">
         <img src={logo} alt="logo" />
@@ -72,7 +72,8 @@ const Contact = () => {
           </h2>
         </div>
     </div>
-      <div className="resumes-container">
+    {/* need to update my resume */}
+      {/* <div className="resumes-container">
         <div className="left-resume-container">
           <a
             href="https://drive.google.com/file/d/10GVclxK-BEtFcTyKrLY0y6Q_XCZeOJB1/view?usp=sharing"
@@ -92,7 +93,7 @@ const Contact = () => {
             <button className="preview-button">Polish Version Resume</button>
           </a>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

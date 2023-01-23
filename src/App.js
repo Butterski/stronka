@@ -25,9 +25,9 @@ function App() {
                     work experience
                   </Link>{" "}
                   i suggest looking at{" "}
-                  <Link to={"/skills"} style={{ color: "#f3f3f3" }}>
+                  <a href="#specs" style={{ color: "#f3f3f3" }}>
                     skills
-                  </Link>
+                  </a>
                   .
                 </p>
                 <div className="social-icons">
@@ -103,6 +103,10 @@ function App() {
                   src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg"
                   alt="cplusplus"
                 />
+                <img
+                  src="https://www.vectorlogo.zone/logos/nginx/nginx-icon.svg"
+                  alt="nginx"
+                />
               </div>
               <h3 align="left">Other:</h3>
               <img
@@ -147,10 +151,6 @@ function App() {
                 alt="ruby"
               />
               <img
-                src="https://www.vectorlogo.zone/logos/nginx/nginx-icon.svg"
-                alt="nginx"
-              />
-              <img
                 src="https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-icon.svg"
                 alt="typescript"
               />
@@ -187,10 +187,39 @@ function App() {
                   />
                   <Project
                     status="finished"
+                    name="Repertuar app"
+                    desc="React + Node.js app made to show the movie repertuar and manage it with admin panel"
+                    link="https://github.com/Butterski/film-repertuar-app"
+                    technologies={[
+                      "react",
+                      "nodejs",
+                      "html-5",
+                      "css-3",
+                    ]}
+                  />
+                  <Project
+                    status="finished"
+                    name="🍕Pizza Clicker"
+                    desc="Simple clicker game made with React and Redux"
+                    link="https://github.com/Butterski/pizza-clicker"
+                    technologies={[
+                      "react",
+                      "redux",
+                      "html-5",
+                      "css-3",
+                    ]}
+                  />
+                  <Project
+                    status="finished"
                     name="color-game"
                     desc="simple color guessing game with multiple modes"
                     link="https://github.com/Butterski/color-game"
-                    technologies={["react","typescript-icon" ,"html-5", "css-3"]}
+                    technologies={[
+                      "react",
+                      "typescript-icon",
+                      "html-5",
+                      "css-3",
+                    ]}
                   />
                   <Project
                     status="finished"
