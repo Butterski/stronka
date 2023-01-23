@@ -1,15 +1,14 @@
 {
   "files": {
-    "main.css": "/stronka/static/css/main.266029c0.css",
-    "main.js": "/stronka/static/js/main.20952cc3.js",
-    "static/media/skillweb.png": "/stronka/static/media/skillweb.d6668504378a5225bfef.png",
+    "main.css": "/stronka/static/css/main.77cf22ac.css",
+    "main.js": "/stronka/static/js/main.88a397aa.js",
     "static/media/logo.svg": "/stronka/static/media/logo.75dd5b131d0294b4703d81d74f50e7c4.svg",
     "index.html": "/stronka/index.html",
-    "main.266029c0.css.map": "/stronka/static/css/main.266029c0.css.map",
-    "main.20952cc3.js.map": "/stronka/static/js/main.20952cc3.js.map"
+    "main.77cf22ac.css.map": "/stronka/static/css/main.77cf22ac.css.map",
+    "main.88a397aa.js.map": "/stronka/static/js/main.88a397aa.js.map"
   },
   "entrypoints": [
-    "static/css/main.266029c0.css",
-    "static/js/main.20952cc3.js"
+    "static/css/main.77cf22ac.css",
+    "static/js/main.88a397aa.js"
   ]
 }
