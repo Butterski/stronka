@@ -26,8 +26,8 @@ const Header = () => {
         </button>
       </div>
       <div className="navbar">
-        <Link to={"/experience"} className="navbar-link">
-          Experience
+        <Link to={"/projects"} className="navbar-link">
+          Projects
         </Link>
         <Link to={'/'} className="navbar-link">
           Skills
@@ -43,7 +43,7 @@ const Header = () => {
             <tbody>
               <tr>
                 <td>
-                  <Link to={"/experience"} onClick={() => setShowList(false)}>
+                  <Link to={"/projects"} onClick={() => setShowList(false)}>
                     {showList ? "Experience" : null}
                   </Link>
                 </td>

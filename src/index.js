@@ -8,7 +8,7 @@ import TopButton from './components/TopButton/TopButton';
 import Particles from './components/Particles/Particles';
 import Footer from './components/Footer/Footer';
 import NotFound from "./views/NotFound/NotFound";
-import Experience from "./views/Experience/Experience";
+import Projects from "./views/Projects/Projects";
 import Skills from "./views/Skills/Skills";
 import Contact from "./views/Contact/Contact";
 
@@ -18,7 +18,7 @@ ReactDOM.render(
     <Header />
     <Routes>
       <Route path="/" element={<App />}/>
-      <Route path="/experience" element={<Experience />}/>
+      <Route path="/projects" element={<Projects />}/>
       <Route path="/skills" element={<Skills />}/>
       <Route path="/contact" element={<Contact />} />
       <Route
