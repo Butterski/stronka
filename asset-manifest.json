@@ -1,22 +1,15 @@
 {
   "files": {
-    "main.css": "/stronka/static/css/main.37a32d42.chunk.css",
-    "main.js": "/stronka/static/js/main.cfe640f8.chunk.js",
-    "main.js.map": "/stronka/static/js/main.cfe640f8.chunk.js.map",
-    "runtime-main.js": "/stronka/static/js/runtime-main.2e75e287.js",
-    "runtime-main.js.map": "/stronka/static/js/runtime-main.2e75e287.js.map",
-    "static/js/2.a0141b47.chunk.js": "/stronka/static/js/2.a0141b47.chunk.js",
-    "static/js/2.a0141b47.chunk.js.map": "/stronka/static/js/2.a0141b47.chunk.js.map",
+    "main.css": "/stronka/static/css/main.266029c0.css",
+    "main.js": "/stronka/static/js/main.20952cc3.js",
+    "static/media/skillweb.png": "/stronka/static/media/skillweb.d6668504378a5225bfef.png",
+    "static/media/logo.svg": "/stronka/static/media/logo.75dd5b131d0294b4703d81d74f50e7c4.svg",
     "index.html": "/stronka/index.html",
-    "static/css/main.37a32d42.chunk.css.map": "/stronka/static/css/main.37a32d42.chunk.css.map",
-    "static/js/2.a0141b47.chunk.js.LICENSE.txt": "/stronka/static/js/2.a0141b47.chunk.js.LICENSE.txt",
-    "static/media/logo.75dd5b13.svg": "/stronka/static/media/logo.75dd5b13.svg",
-    "static/media/skillweb.d6668504.png": "/stronka/static/media/skillweb.d6668504.png"
+    "main.266029c0.css.map": "/stronka/static/css/main.266029c0.css.map",
+    "main.20952cc3.js.map": "/stronka/static/js/main.20952cc3.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.2e75e287.js",
-    "static/js/2.a0141b47.chunk.js",
-    "static/css/main.37a32d42.chunk.css",
-    "static/js/main.cfe640f8.chunk.js"
+    "static/css/main.266029c0.css",
+    "static/js/main.20952cc3.js"
   ]
 }
